@@ -276,5 +276,15 @@ h3#name {
   font-weight: lighter;
 }
 
-@media (min-width: 700px), handheld and (orientation: landscape) {
+@media (max-width: 950px) {
+  main.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section.right-side {
+    display: none;
+  }
 }
